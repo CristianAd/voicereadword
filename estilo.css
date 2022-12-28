@@ -1,0 +1,201 @@
+ *{
+    background-color: #472183;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+
+ .contenedor-general{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    height: 95vh;
+    /* border: 0.3rem solid goldenrod; */
+    margin: 0 auto;
+ }
+
+ header{
+   /* border: 0.3rem solid greenyellow;*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+ }
+
+ 
+
+ ul{
+    list-style-type: none;
+    display: flex;
+     
+    
+
+ }
+ section{
+    /* border: 0.3rem solid greenyellow; */
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+.zona-ejecutores{
+    margin-bottom: 4rem;
+    word-spacing: 10rem;
+}
+
+.zona-ejecutores button{
+    font-size: x-large;
+    font-weight: 800;
+    border-radius: 1rem;
+}
+
+.zona-ejecutores button:first-child{
+    background-color: #070ac9;
+    color: white;
+    width: 10rem;
+ 
+}
+
+.zona-ejecutores button:last-child{
+    background-color: #c97507;
+    color: white;
+    width: 10rem;
+ 
+}
+
+.zona-palabras  button{
+    font-size: x-large;
+    font-weight: 800;
+    border-radius: 1rem;
+     
+}
+
+p{
+    color: wheat;
+}
+ 
+.modojuego button{
+    background-color: #070ac9;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+    font-size: x-large;
+    border-radius: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.modop-significado{
+
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+   
+    
+
+}
+
+.modop-significado #palabra-es{
+
+    background-color: rgb(125, 179, 81);
+    width: 22rem;  
+
+}
+
+.botones-ejercicio{
+    background-color: #070ac9;
+    margin-bottom: 2rem;
+}
+
+
+#cambio-modo{
+     
+     display: flex;
+     justify-content: center;
+    color: rgb(240, 240, 240);
+    width: 20%;
+}
+
+#cambio-modo a button{
+     background-color: crimson;
+     border-radius: 100%;
+     width: 5rem;
+     height: 5rem;
+     color: aliceblue;
+}
+
+ h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+ }
+
+ .pageinicio {
+
+    display: flex;
+    
+    justify-content: space-between;
+    margin-bottom: 5rem ;
+    width: 30%;
+      
+}
+
+.pageinicio a button{
+    background-color: #1bbb16;
+    border-radius: 2rem;
+    list-style: none;
+    font-size: x-large;
+    font-weight: 800;
+      
+}
+
+.pageinicio button:hover{
+    background-color: #c8e716;
+     
+      
+}
+
+
+
+/*Colores de los botones*/
+#palabra-es{
+    background-color: rgb(184, 156, 209);
+    width: 10rem;
+    height: 4rem;
+}
+
+#uno-palabra-en{
+    background-color: #11389D;
+}
+#dos-palabra-en{
+    background-color: #49A005;
+}
+
+#tres-palabra-en{
+    background-color: #661E63;
+}
+
+
+footer{
+    color: aliceblue;
+}
+
+
+/* Ejecuta el CSS en pantallas cuyo ancho tenga como mínimo 768px */
+/* Es decir, lo ejecuta a partir de 768px en adelante */
+ @media screen and (min-width:800px) { 
+ 
+  
+ 
+ 
+
+
+  } 
